@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <style>
+       
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 70vh;
+        }
+       
+        .container-2 {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .container-2 img {
+            margin-left: 10px;
+        }
+
+        .container-2 img:first-child {
+            width: 20px;
+            height: 20px;
+            
+        }
+
+        .container-2 img:last-child {
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+        }
+        .yazi{
+            text-decoration: none;
+            position:absolute;
+            display: flex;
+            top: 10px;
+            right: 10px;
+            margin-right: 70px;
+            margin-top: 2px;
+            color: red;
+
+        }
+        .yazi a:last-child{
+            margin-left: 10px;
+        }
+        .yazi2{
+            top: 10px;
+            left: 10px;
+            display: flex;
+            position: absolute;
+            
+        }
+        .yazi2 a:last-child{
+            margin-left: 10px;
+            
+        }
+        .aramakismi{
+            display: flex;
+            align-items: center;
+            margin-left: 500px;
+            margin-top: -170px;
+
+            }
+       
+        .aramakismi input{
+            border-radius: 15px;
+            width: 480px;
+            height: 45px;
+            border: 1px solid #f2f2f2;
+            font-size: 16px;
+            padding: 0px 20px;
+           }
+
+           .button button:first-child{
+            border-width: 1px;
+            color: #f2f2f2;
+            height: 36px;
+            display: flex;
+            align-items: center;
+            margin-left: 630px;
+            margin-top: 20px;
+            }
+            .button button:last-child{
+            border-width: 1px;
+            color: #f2f2f2;
+            height: 36px;
+            display: flex;
+            align-items: center;
+            margin-left: 740px;
+            position: absolute;
+            margin-top: -34.5px;
+           
+            }
+            .enDis{
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            }
+            .footer{
+            margin-top: auto;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #f2f2f2;
+            }
+            .sag, .sol {
+            display: flex;
+            gap: 15px;
+            }
+             a {
+            text-decoration: none;
+            color: #70757a;
+           }
+            a:hover {
+            text-decoration: underline;
+           }
+           .voice{
+            display: flex;
+            position: absolute;
+            margin-top: 333px;
+            margin-left: 985px;
+           }
+           .aramaLogo{
+            display: flex;
+            position: absolute;
+            margin-top: 336px;
+            margin-left: 510px;
+           
+           }
+          
+
+    </style>
+
+
+</head>
+<body>
+    <div class="aramaLogo">
+        <img src="resimler/images.png" width="18px"  alt="">
+    </div>
+    <div class="voice">
+        <img src="resimler/voicelogo.png" width="25px" alt="">
+    </div>
+    <div class="container">
+        <img src="resimler/logo.png" alt="">
+    </div>
+        
+    
+    <div class="container-2">
+        <img style=" margin-left: 10px;" src="resimler/appsbutton.jpg" alt="">
+        <img src="resimler/1678393648229.jpg" alt="">
+    </div>
+    
+    <div class="yazi">
+    <a style="color:black; text-decoration: none;"  href="">Gmail</a>
+    <a style="text-decoration: none; color:black; " href="">Images</a>
+    </div>
+    <div class="yazi2">
+        <a style="color:black; text-decoration: none;"  href="">About</a>
+        <a style="text-decoration: none; color:black; " href="">Store</a>
+    </div>
+    
+    <div class="aramakismi">
+        <input type="text" maxlength="2048" autofocus="true">
+    </div>
+
+    <div class="button">
+        <button style="height: 36px; border-radius: 2px; font-family: Arial, Helvetica, sans-serif; background-color: #f2f2f2; color: black; border-style: none; font-size: 14px; "> <p style="color: #5f6368;">Google Search</p></button>
+        <button style="height: 36px; border-radius: 2px; font-family: Arial, Helvetica, sans-serif; background-color: #f2f2f2; color: black; border-style: none; font-size: 14px; "> <p style="color: #5f6368;">I'm Feeling Lucky</p></button>
+    </div>
+    <div class="enDis">
+        <div class="footer" style="background-color:#f2f2f2; display:flex; width:100%; height:30px; position:fixed; bottom:0; left:0;">
+                <div class="sol">
+                    <a href="">Advertsing</a>
+                    <a href="">Business</a>
+                    <a href="">How Search Works</a>
+                </div>
+
+                <div class="sag" style="margin-right: 29px;">
+                    <a href="">Privacy</a>
+                    <a href="">Term</a>
+                    <a href="">Settings</a>
+                </div>
+            </div>
+     </div>
+    
+
+</body>
+</html>
